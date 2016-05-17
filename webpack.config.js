@@ -36,6 +36,10 @@ module.exports = {
         test: /\.png$/,
         loaders: ['url?limit=8192&name=asset/img/[hash].[ext]'],
       },
+      {
+        test: /\.json$/,
+        loaders: ['json'],
+      },
     ],
   },
   plugins: [
