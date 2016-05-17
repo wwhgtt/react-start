@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-with-env": "LOCAL_HOST=127.0.0.1 NODE_ENV=development node server.js"
+    "start": "LOCAL_HOST=127.0.0.1 NODE_ENV=development node server.js"
   },
   "repository": {
     "type": "git",
@@ -56,6 +56,7 @@
     "fetch": "^1.0.0",
     "formsy-react": "^0.18.0",
     "immutable": "^3.7.6",
+    "iscroll": "^5.2.0",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.11.1",
     "moment": "^2.12.0",
@@ -74,6 +75,7 @@
     "redux-actions": "^0.9.0",
     "redux-promise": "^0.5.0",
     "redux-thunk": "^2.0.1",
-    "tree-model": "^1.0.4"
+    "tree-model": "^1.0.4",
+    "whatwg-fetch": "^1.0.0"
   }
 }
