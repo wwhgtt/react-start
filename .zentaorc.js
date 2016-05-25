@@ -1,5 +1,5 @@
 module.exports = {
-  account: 'niek',
-  password: 'nike829475',
+  account: '',
+  password: '',
 };
 // nothing

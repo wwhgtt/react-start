@@ -56,12 +56,8 @@
     "es6-promise": "^3.0.2",
     "fetch": "^1.0.0",
     "formsy-react": "^0.18.0",
-    "immutable": "^3.7.6",
     "iscroll": "^5.2.0",
     "isomorphic-fetch": "^2.2.1",
-    "lodash": "^4.11.1",
-    "moment": "^2.12.0",
-    "moment-range": "^2.2.0",
     "object-assign": "^4.0.1",
     "react": "^15.0.2",
     "react-addons-create-fragment": "^15.0.2",
@@ -70,13 +66,10 @@
     "react-addons-shallow-compare": "^15.0.2",
     "react-addons-test-utils": "^15.0.2",
     "react-dom": "^15.0.2",
-    "react-keypress": "^0.1.5",
     "react-redux": "^4.4.5",
     "redux": "^3.0.5",
     "redux-actions": "^0.9.0",
     "redux-promise": "^0.5.0",
     "redux-thunk": "^2.0.1",
-    "tree-model": "^1.0.4",
-    "whatwg-fetch": "^1.0.0"
   }
 }
