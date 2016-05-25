@@ -5,9 +5,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: {
     index_bundle: [
-      `webpack-dev-server/client?http://${process.env.LOCAL_HOST}:3000`, // WebpackDevServer host and port
+      'webpack-dev-server/client?http://0.0.0.0:3000', // WebpackDevServer host and port
       'webpack/hot/only-dev-server', // "only" prevents reload on syntax errors
-      './src/order.jsx',
+      './src/dish-menu.jsx',
     ],
   },
   resolve: {
@@ -16,7 +16,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: '[name].js',
-    publicPath: `http://${process.env.LOCAL_HOST}:3000/`,
+    publicPath: 'http://0.0.0.0:3000/',
   },
   devtool: ['source-map'],
   module: {
