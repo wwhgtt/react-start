@@ -7,9 +7,9 @@ new WebpackDevServer(webpack(config), {
   hot: true,
   historyApiFallback: true,
   stats: { colors: true },
-}).listen(3000, process.env.LOCAL_HOST, (err, result) => {
+}).listen(3000, '0.0.0.0', (err, result) => {
   if (err) {
     console.log(err);
   }
-  console.log(`Listening at http://${process.env.LOCAL_HOST}:3000/`);
+  console.log('Listening at 0.0.0.0:3000');
 });
